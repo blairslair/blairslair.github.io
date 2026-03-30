@@ -2,29 +2,33 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "Caudex", system-ui;
+    font-family: "PT Serif", serif;
     font-weight: 300;
     font-style: normal;
     scroll-behavior: smooth;
 }
 
+/*
 .background {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://raw.githubusercontent.com/aidanaudio/aidanaudio.github.io/refs/heads/main/media/background/Site_Background_03.jpg') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/blairslair/blairslair.github.io/refs/heads/main/media/background/Site_Background_03.jpg') no-repeat center center;
     background-size: cover;
     z-index: -1;
 }
+*/
 
+/*
 .hero {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
     background-color: rgb(0, 0, 0);
 }
+*/
 
 .hero-title {
     position: relative;
@@ -50,7 +54,7 @@ html, body {
 .navbar {
     position: sticky;
     top: 0;
-    background: url('https://raw.githubusercontent.com/aidanaudio/aidanaudio.github.io/refs/heads/main/media/background/Spacer_02.jpg') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/blairslair/blairslair.github.io/refs/heads/main/media/background/Spacer_02.jpg') no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -89,7 +93,7 @@ section {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: url('https://raw.githubusercontent.com/aidanaudio/aidanaudio.github.io/refs/heads/main/media/background/Content_09.jpg') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/blairslair/blairslair.github.io/refs/heads/main/media/background/Content_02.jpg') no-repeat center center;
     background-size: cover;
     padding: 80px;
     color: white;
@@ -98,7 +102,7 @@ section {
 .spacer {
     width: 100%;
     height: 120px;
-    background: url('https://raw.githubusercontent.com/aidanaudio/aidanaudio.github.io/refs/heads/main/media/background/Spacer_02.jpg') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/blairslair/blairslair.github.io/refs/heads/main/media/background/Spacer_02.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -125,7 +129,7 @@ section {
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: url('https://raw.githubusercontent.com/aidanaudio/aidanaudio.github.io/refs/heads/main/media/background/Content_09.jpg') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/blairslair/blairslair.github.io/refs/heads/main/media/background/Content_02.jpg') no-repeat center center;
     background-size: 100% auto;
     background-repeat: repeat;
     background-position: top center;
@@ -140,7 +144,7 @@ section {
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background: url('https://raw.githubusercontent.com/aidanaudio/aidanaudio.github.io/refs/heads/main/media/background/Content_09.jpg') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/blairslair/blairslair.github.io/refs/heads/main/media/background/Content_02.jpg') no-repeat center center;
     background-size: 100% auto;
     background-repeat: repeat;
     background-position: top center;
@@ -224,58 +228,12 @@ section {
     height: 100%;
 }
 
+/*
 .soundcloud-wrapper {
     padding-top: 28px;
     width: 100%;
 }
-
-.steam-image-box {
-    position: relative;
-    width: 100%;
-    height: 240px;
-    overflow: hidden;
-    border-radius: 8px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
-}
-
-.steam-image-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.steam-image-box:hover {
-    transform: scale(1.05);
-}
-
-.steam-image-box a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-}
-
-.steam-overlay-text {
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    text-shadow:
-        -4px -4px 0 #000,
-        4px -4px 0 #000,
-        -4px  4px 0 #000,
-        4px  4px 0 #000,
-        -4px  0px 0 #000,
-        4px  0px 0 #000,
-        0px -4px 0 #000,
-        0px  4px 0 #000;
-    pointer-events: none;
-    text-align: center;
-}
+*/
 
 .credits-container {
     width: 100%;
@@ -470,7 +428,7 @@ a:visited {
 
     .spacer-text {
         margin-top: 35px;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 50%;
+        margin-right: 50%;
     }
 }
